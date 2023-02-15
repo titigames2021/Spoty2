@@ -1,17 +1,15 @@
-<ion-header  >
-  <ion-toolbar color="transparent">
-    <div id="entrada">
-      <ion-title>¡Buenos días!</ion-title>
-      <ion-buttons >
-          <ion-icon name="settings-outline"></ion-icon>
-      </ion-buttons>
-    </div>
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Perfíl
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" >
-  <div id="contenedor">
-   
-  
-    </div>
+<ion-content [fullscreen]="true">
+<div id="contenedor">
+  <app-apartado></app-apartado>
+  <app-datos></app-datos>
+  <app-otros></app-otros>
+</div>
 </ion-content>

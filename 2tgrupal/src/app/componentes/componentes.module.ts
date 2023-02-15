@@ -1,3 +1,6 @@
+import { OtrosComponent } from './../otros/otros.component';
+import { DatosComponent } from './../datos/datos.component';
+import { ApartadoComponent } from './../apartado/apartado.component';
 import { SpotyxComponent } from './../spotyx/spotyx.component';
 import { Spoty9Component } from './../spoty9/spoty9.component';
 import { Spoty8Component } from './../spoty8/spoty8.component';
@@ -20,10 +23,10 @@ import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
-  declarations: [TrajetasComponent,ListasComponent,CategoriasbComponent,FotoComponent,BuscarComponent,Spoty1Component,Spoty2Component,Spoty3Component,Spoty4Component,Spoty5Component,Spoty6Component,Spoty7Component,Spoty8Component,Spoty9Component,SpotyxComponent],
+  declarations: [TrajetasComponent,ListasComponent,CategoriasbComponent,FotoComponent,BuscarComponent,Spoty1Component,Spoty2Component,Spoty3Component,Spoty4Component,Spoty5Component,Spoty6Component,Spoty7Component,Spoty8Component,Spoty9Component,SpotyxComponent,ApartadoComponent,DatosComponent,OtrosComponent],
   imports: [
     CommonModule,
     IonicModule
-  ], exports: [TrajetasComponent,ListasComponent,CategoriasbComponent,FotoComponent,BuscarComponent,Spoty1Component,Spoty2Component,Spoty3Component,Spoty4Component,Spoty5Component,Spoty6Component,Spoty7Component,Spoty8Component,Spoty9Component,SpotyxComponent]
+  ], exports: [TrajetasComponent,ListasComponent,CategoriasbComponent,FotoComponent,BuscarComponent,Spoty1Component,Spoty2Component,Spoty3Component,Spoty4Component,Spoty5Component,Spoty6Component,Spoty7Component,Spoty8Component,Spoty9Component,SpotyxComponent,ApartadoComponent,DatosComponent,OtrosComponent]
 })
 export class ComponentesModule { }
