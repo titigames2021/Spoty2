@@ -1,0 +1,12 @@
+ion-content{
+    --background: rgb(24, 23, 27) !important;
+        --background: linear-gradient(150deg, rgba(50,85,115) 0%, rgb(24, 23, 27) 35%)!important;
+        
+    }
+    #entrada{
+        width: 95%;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items:center;
+    }

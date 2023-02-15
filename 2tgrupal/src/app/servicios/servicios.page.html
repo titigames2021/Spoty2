@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+     <ion-icon name="chevron-down"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Reproduciendo desde el podcast <br> AM</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+      <ion-icon name="ellipsis-vertical"></ion-icon>
+    </ion-button>
+     </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size-xs="12" size-sm="12" size-md="4" size-lg="4" size-xl="4">
+        <div id="caratula"><img src="../../assets/img/reproductor.PNG" alt=""></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size-xs="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+        <div id="container">
+  <div id="titulo">
+    <h5>De acuerdo · 25 de marzo</h5>
+  </div>
+  <div id="autor">AM</div>
+  <div id="progreso">
+    <ion-progress-bar color="light" value="0.3"></ion-progress-bar>
+  </div>
+  <div class="espacio" id="tiempos">
+    <ion-note>13:44</ion-note>
+    <ion-note>37:43</ion-note>
+  </div>
+  <div class="espacio" id="controlesrepro">
+    <div> <span>1x</span> </div>
+    <div><ion-icon name="play-back"></ion-icon></div>
+    <div><ion-fab-button color="light">
+      <ion-icon name="play"></ion-icon>
+    </ion-fab-button></div>
+    <div><ion-icon name="play-forward"></ion-icon></div>
+    <div><ion-icon name="moon"></ion-icon></div>
+  </div>
+  <div class="espacio" id="opciones">
+    <ion-icon name="desktop"></ion-icon>
+    <ion-icon name="share"></ion-icon>
+  </div>
+</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+
