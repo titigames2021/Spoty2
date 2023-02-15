@@ -1,12 +1,52 @@
-ion-content{
-    --background: rgb(24, 23, 27) !important;
-        --background: linear-gradient(150deg, rgba(50,85,115) 0%, rgb(24, 23, 27) 35%)!important;
-        
-    }
+
 #entrada{
     width: 95%;
     display:flex;
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
+}
+.header-md::after{
+    content: none;
+}
+
+.header-ios::after{
+    content: none;
+}
+
+ion-content{
+   
+
+    --background: rgb(2,0,36);
+  --background: linear-gradient(175deg, rgba(2,0,36,1) 0%, rgba(7,7,99,1) 0%,  rgba(0,0,0,1) 100%);
+    
+   
+ 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+  
+    }
+    
+    .no-scroll {
+     --overflow: hidden;
+ }
+ ion-slide{
+
+
+    width: 20rem;
+    height: 14rem;
+  
+
+
+}
+
+ion-slides{
+    height: 15rem;
+     
 }

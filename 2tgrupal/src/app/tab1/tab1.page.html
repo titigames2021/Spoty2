@@ -1,17 +1,87 @@
-<ion-header  >
-  <ion-toolbar color="transparent">
-    <div id="entrada">
-      <ion-title>¡Buenos días!</ion-title>
-      <ion-buttons >
-          <ion-icon name="settings-outline"></ion-icon>
-      </ion-buttons>
-    </div>
-  </ion-toolbar>
+<ion-header >
+  <app-spoty1></app-spoty1>
 </ion-header>
 
-<ion-content [fullscreen]="true" >
-  <div id="contenedor">
-    <app-listas color="transparent"></app-listas>
-  
-    </div>
+<ion-content [fullscreen]="true">
+    <ion-content fullscreen="true"class="no-scroll">
+      
+    
+
+       
+        <ion-title class="tit" >Sumergete de nuevo en <br  class="ion-hide-md-up">
+          tu musica</ion-title>
+        
+          
+      
+    
+
+      <ion-slides>
+        <ion-slide>
+          
+         <app-spoty2></app-spoty2>
+         <app-spoty2></app-spoty2>
+         <app-spoty2></app-spoty2>
+         <app-spoty2></app-spoty2>
+
+
+        
+        </ion-slide>
+        
+
+        
+      
+
+
+
+
+    </ion-slides>
+    <ion-title class="tit">Tus Artistas Favoritos</ion-title>
+
+
+
+    <ion-slides>
+      <ion-slide>
+        <ion-card>
+          <div class="cardimg5"></div>
+          <ion-card-subtitle>Iron Maiden</ion-card-subtitle>
+          
+        </ion-card>
+        
+        <ion-card>
+          <div class="cardimg6"></div>
+          <ion-card-subtitle>Judas Priest</ion-card-subtitle>
+        
+      </ion-card>
+
+      <ion-card  class="ion-hide-md-down">
+        <div class="cardimg7"></div>
+        <ion-card-subtitle>Bsabbat</ion-card-subtitle>
+        
+      </ion-card>
+      
+      <ion-card  class="ion-hide-md-down">
+        <div class="cardimg8" ></div>
+        <ion-card-subtitle>Metallica</ion-card-subtitle>
+      
+    </ion-card>
+
+      
+      </ion-slide>
+    
+
+      
+
+
+
+
+
+    </ion-slides>
+
+ 
+     
+    
+
+
+  </ion-content>
+
 </ion-content>
